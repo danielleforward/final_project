@@ -11,8 +11,9 @@ The goal of this project is to create a “smart” kitchen scale that records p
 
 
 ## Challenges
-What do you anticipate will be the hardest and most time-consuming parts?
-I’ve never hacked a scale before, so that’ll be new. The programming seems complicated as well. I’ve also never visualized data! That’ll be a challenge.
+- Hacking a scale
+- The programming
+- *Visualizing data*
 
 
 ## Project Timeline
