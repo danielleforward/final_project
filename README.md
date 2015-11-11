@@ -13,7 +13,7 @@ The goal of this project is to create a “smart” kitchen scale that records p
 ## Challenges
 - Hacking a scale
 - The programming
-- *Visualizing data*
+- _Visualizing data_
 
 
 ## Project Timeline
