@@ -5,6 +5,12 @@ The goal of this project is to create a “smart” kitchen scale that records p
 UPDATE:
 Due to extensive calibration of the scale, I was only able to implement the gram specification and nutrient readout via the serial monitor in fiber, sugar, and calories per gram of weight placed on the scale. In future iterations, I would hope to add the cataloging of food data to also determine what was consumed using the difference of the previous variables.
 
+Calibration 1:
+https://vimeo.com/148752791
+
+Calibration 2:
+https://youtu.be/OegTOj8_KaU
+
 
 ## Component Parts
 - Digital kitchen scale (bought off Amazon and hacked)
