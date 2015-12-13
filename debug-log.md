@@ -1,4 +1,4 @@
-#### Balance Scale Debug Log
+#### Smart Scale Debug Log
 
 ##11/24
 
