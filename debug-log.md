@@ -1,9 +1,9 @@
 #### Balance Scale Debug Log
 
-11/24
+##11/24
 
-Behavior expected: Calibration of scale would be .5 volts to 5 volts
-Observed behavior: Incorrect voltage displayed on multimeter
+- Behavior expected: Calibration of scale would be .5 volts to 5 volts
+- Observed behavior: Incorrect voltage displayed on multimeter
 - Hypothesis for mismatch: Something wrong with batteries
 - Test hypothesis: Checked batteries
 - Result: We were missing a battery! D'oh.
@@ -14,15 +14,13 @@ Observed behavior: Incorrect voltage displayed on multimeter
 - Test hypothesis: Checked schematic
 - Result: I was supplying the incorrect supply voltage, I was at 5 volts and the circuit needed 9! Worked after applying 9 volts
 
-
 - Behavior expected: Calibration of scale would be .5 volts to 5 volts
 - Observed behavior: Incorrect voltage displayed on multimeter
 - Hypothesis for mismatch: Checked schematic, I used wrong supply voltage given, I used 5 volts instead of 9 volts shown in schematic
 - Test hypothesis: Used 9 volts for scale circuit
 - Result: Scale came out to mostly correct voltage, 0.617 to 5 volts!
-- 
 
-12/2
+##12/2
 
 - Behavior expected: Calibration of scale would be .5 volts to 5 volts
 - Observed behavior: Incorrect voltage displayed
@@ -36,7 +34,7 @@ Observed behavior: Incorrect voltage displayed on multimeter
 - Test hypothesis: Switched out the batteries for good ones, checked on multimeter
 - Result: Scale working again at correct voltage!
 
-12/7
+##12/7
 
 - Behavior expected: Scale would show 0.00 in serial monitor with no weight on it
 - Observed behavior: Scale shows weight on it even though nothing's on it
