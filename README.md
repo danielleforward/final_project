@@ -3,7 +3,7 @@ The goal of this project is to create a “smart” kitchen scale that records p
 	To summarize, the input would be the ‘weight change over time’ of a food item (e.g. cereal) and that food item’s nutritional data (either by scanning a barcode or entering it manually) and the output would be a visualization of the changes in weight data over time multiplied by that nutritional data entered, and therefore the nutrients ingested over time from that item.
 	
 UPDATE:
-Due to extensive calibration of the scale, I was only able to implement the gram specification and nutrient readout via the serial monitor in fiber, sugar, and calories per gram of weight placed on the scale. In future iterations, I would hope to add the cataloging of data to also determine what was consumed using the previous variables.
+Due to extensive calibration of the scale, I was only able to implement the gram specification and nutrient readout via the serial monitor in fiber, sugar, and calories per gram of weight placed on the scale. In future iterations, I would hope to add the cataloging of food data to also determine what was consumed using the difference of the previous variables.
 
 
 ## Component Parts
