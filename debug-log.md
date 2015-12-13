@@ -62,3 +62,10 @@
 - Result: The equation is accurate!
 
 
+- Behavior expected: Serial monitor would print each value with correct spacing
+- Observed behavior: Serial monitor printing odd values---"Protein:0.0012"
+- Hypothesis for mismatch: Something's wrong with the serial print code
+- Test hypothesis: Checked serial print code. It looked like I was missing appropriate spacing and using Serialprint & Serialprintln improperly. Added correct spacing to those lines.
+- Result: The equation is readable in the serial monitor!
+
+
