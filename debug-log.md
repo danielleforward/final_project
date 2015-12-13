@@ -51,3 +51,17 @@
 - Test hypothesis: Checked weighing platform with fingertip, when tilted it reaches 0.00, has natural slant due to construction that makes the load cell think it has 1.1 grams on it
 - Result: Scale is naturally off due to platform defect in manufacturing
 
+- Behavior expected: Scale would show correct output of fiber and sugar for strawberries
+- Observed behavior: Scale shows 0.00
+- Hypothesis for mismatch: Something's wrong with the fiber/sugar code
+- Test hypothesis: Checked code equation to calculate fiber/sugar in serial monitor, it turned out I was using an 'int' when my input and output was a float. Changed variables to floats.
+- Result: The equation works!
+
+
+- Behavior expected: Scale would show correct output of fiber and sugar for strawberries
+- Observed behavior: Scale shows higher output than expected
+- Hypothesis for mismatch: Something's wrong with the fiber/sugar code
+- Test hypothesis: Checked code variables, numbers I had input before were far too high, I'd forgotten to divide per gram. I input the correct fiber/sugar per gram.
+- Result: The equation is accurate!
+
+
