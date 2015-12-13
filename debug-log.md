@@ -2,9 +2,8 @@
 
 11/24
 
-
-- Behavior expected: Calibration of scale would be .5 volts to 5 volts
-- Observed behavior: Incorrect voltage displayed on multimeter
+Behavior expected: Calibration of scale would be .5 volts to 5 volts
+Observed behavior: Incorrect voltage displayed on multimeter
 - Hypothesis for mismatch: Something wrong with batteries
 - Test hypothesis: Checked batteries
 - Result: We were missing a battery! D'oh.
